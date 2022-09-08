@@ -1,0 +1,145 @@
+/* MOBILE */
+
+.logo {
+    width: 80px;
+    border: 1px solid black;
+}
+
+.organizer-img {
+    width: 60%;
+    height: 60%;
+}
+
+.sponsor-img {
+    width: 60%;
+    height: 30%;
+}
+
+#meet-the-organizers {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+}
+
+#back-to-top {
+    display: none;
+}
+
+#sponsors {
+    background-color: var(--background);
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+}
+
+#organizer-img-group div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+#sponsor-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+    .logo {
+        border: 1px solid black;
+        width: 90px;
+        position: absolute;
+        left: 2%;
+        top: 2%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .centered-div {
+        margin: 5% 0;
+    }
+
+    .organizer-img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .sponsor-img {
+        width: 50%;
+        height: 20%;
+    }
+
+    #back-to-top {
+        font-size: 0.75rem;
+        padding: 10px;
+    }
+
+    #meet-the-organizers,
+    #sponsors {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #organizer-img-group div {
+        flex-grow: 1;
+        flex-basis: 40%;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1024px) {
+    .logo {
+        border: 1px solid black;
+        width: 90px;
+        position: absolute;
+        left: 5%;
+        top: 8%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .organizer-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #meet-the-organizers,
+    #sponsors {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #organizer-img-group {
+        display: flex;
+        align-items: center;
+    }
+
+    #sponsor-div {
+        flex-direction: row;
+    }
+
+    #back-to-top {
+        font-size: 1.25rem;
+        padding: 15px;
+    }
+
+    .sponsor-img {
+        flex-grow: 1;
+        flex-basis: 10%;
+    }
+
+    footer a {
+        font-size: 1.5rem;
+    }
+}
