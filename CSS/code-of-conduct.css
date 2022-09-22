@@ -1,92 +1,92 @@
 /* MOBILE */
 
 .logo {
-    width: 80px;
-    border: 1px solid black;
+  width: 80px;
+  border: 1px solid black;
 }
 
 #code-of-conduct {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 40px;
 }
 
 #contact-information {
-    background-color: var(--background);
-    padding-top: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 40px;
+  background-color: var(--background);
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 40px;
 }
 
 #back-to-top {
-    display: none;
+  display: none;
 }
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
-    .logo {
-        border: 1px solid black;
-        width: 90px;
-        position: absolute;
-        left: 2%;
-        top: 2%;
-    }
+  .logo {
+    border: 1px solid black;
+    width: 90px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+  }
 
-    h2 {
-        font-size: 2rem;
-    }
+  h2 {
+    font-size: 2rem;
+  }
 
-    .centered-div {
-        margin: 5% 0;
-    }
+  .centered-div {
+    margin: 5% 0;
+  }
 
-    #back-to-top {
-        font-size: 0.75rem;
-        padding: 10px;
-    }
+  #back-to-top {
+    font-size: 0.75rem;
+    padding: 10px;
+  }
 
-    #code-of-conduct,
-    #contact-information {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
+  #code-of-conduct,
+  #contact-information {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
-    p {
-        font-size: 1.5rem;
-    }
+  p {
+    font-size: 1.5rem;
+  }
 
-    h2 {
-        font-size: 3rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
 
-    h3 {
-        font-size: 1.8rem;
-    }
+  h3 {
+    font-size: 1.8rem;
+  }
 
-    .logo {
-        border: 1px solid black;
-        width: 90px;
-        position: absolute;
-        left: 5%;
-        top: 8%;
-    }
+  .logo {
+    border: 1px solid black;
+    width: 90px;
+    position: absolute;
+    left: 5%;
+    top: 8%;
+  }
 
-    #back-to-top {
-        font-size: 1.25rem;
-        padding: 15px;
-    }
+  #back-to-top {
+    font-size: 1.25rem;
+    padding: 15px;
+  }
 
-    #code-of-conduct,
-    #contact-information {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
+  #code-of-conduct,
+  #contact-information {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 
-    footer a {
-        font-size: 1.5rem;
-    }
+  footer a {
+    font-size: 1.5rem;
+  }
 }
